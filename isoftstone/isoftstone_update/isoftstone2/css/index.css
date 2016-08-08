@@ -1,0 +1,158 @@
+﻿.topContent{
+width:100%;
+position:relative;
+display:block;
+}
+.banner{
+width:100%;
+overflow:hidden; position:relative;
+}
+/*.hideban { opacity:0;}*/
+.banner .level{
+width:100%; float:left;margin-right:-100%; display:none; position:relative; height:410px;
+}
+.banner .leimg1 { background:url(../images/banner1.png) no-repeat center;}
+.banner .leimg2 { background:url(../images/banner2.png) no-repeat center;}
+.banner .leimg3 { background:url(../images/banner3.png) no-repeat center;}
+.banner .leimg4 { background:url(../images/banner4.png) no-repeat center;}
+.banner .level img{
+width:100%;
+}
+.mid_content {
+    width:100%; background-color:#f6f6f4; border-bottom:1px solid #c4c4c2;margin-bottom:1em;
+}
+.mid_contlevel {
+    width:70%;margin:0 15%; 
+}
+.mid_contlevel ul {
+    width:100%;background:url(../images/bg_mid.png) no-repeat left; 
+}
+    .mid_contlevel li {
+        padding:0.7em 0 0.6em 0;float:left;
+    }
+    .mid_contlevel li.li1 {
+        width:70%; font-size:0.8em;
+    }
+    .mid_contlevel li.li1 span {
+        float:left;
+    }
+    .mid_contlevel li.li2 {
+        width:30%;text-align:right;
+    }
+    .mid_contlevel li.li2 img {
+        margin-left:0.5em;
+    }
+.spanitem a {padding:0px 15px; font-weight:700; color:#d71921; text-decoration:none; background:url(../images/defaultArrow.png) no-repeat right;}
+.content { width:70%; margin:0 15%;}
+.conleft { float:left; width:26%;}
+.conmid { float:left; width:52%;}
+.conright { float:left; width:22%;}
+.conleft_level1 { width:90%;}
+.contitle { overflow:hidden; margin-bottom:1em;}
+.contitle span.title {font-size:1.2em; float:left; line-height:1.6;}
+.contitle span.clickmenu { float:right; padding-right:0;}
+.contitle span.clickmenu img { cursor:pointer;}
+.contitle span.clickmenuri { float:right;}
+.contitle span.clickmenuri img { cursor:pointer;}
+.conleft_level2 { position:relative; width:100%; overflow:hidden;}
+.conleft_level3 {position:absolute; width:100%; left0; top:0;}
+.conleft_level3 li { float:left; width:100%;}
+.conleft_level4 { width:100%; margin-bottom:0.8em; overflow:hidden;}
+.conleft_level4img { float:left;width:30%;}
+.conleft_level4img img { width:100%;}
+.conleft_level4con {float:left; width:70%;}
+h1.title_con { font-size:0.8em; font-weight:bold;margin:0; padding:0 0 5px 8px;}
+.con_level4con { padding:0 0 0 8px;font-size:0.8em;}
+
+.conmid_level1 { padding:0 1.5em; border-right:1px solid #deded8; border-left:1px solid #deded8;}
+.conmid_level2 {width:100%; margin-bottom:0.8em; overflow:hidden;}
+.conmid_level2img { float:left;width:15%;}
+.conmid_level2img img { width:100%;}
+.conmid_level2con {float:left; width:85%;}
+
+.conright_level1 { width:90%; margin-left:10%;}
+.conright_contact { font-size:0.8em;}
+.conright_level2 { position:relative; width:100%; overflow:hidden; margin-bottom:1em;}
+.conright_level3 {position:absolute; width:100%; left0; top:0;}
+.conright_level3 li { float:left; width:100%; margin-bottom:0.8em;}
+.img_right, .img_right img {width:100%;}
+.job_right {font-size:0.8em;}
+.job_right span { float:left;}
+.job_right span.bo { font-weight:bold; padding-right:10px;}
+.hide_img { opacity:0; filter:alpha(opacity=0);padding-bottom:3em;}
+
+/*banner*/
+.navl { position:absolute; right:15%; width:20%; bottom:1.5em; z-index:3; text-align:right;}
+.navl img { margin-left:5.4%; width:5.4%; cursor:pointer;}
+.ban_level2bg { position:absolute; width:56%; bottom:0; left:15%; background-color:#000; opacity:0.6;filter:alpha(opacity=60);z-index:5;padding:0.8em 0 0.5em 0;}
+.ban_level2 { position:absolute; width:56%; bottom:0; left:15%; color:#fff;z-index:6; padding:0.8em 0 0.5em 0;}
+.ban_level2_con1 { float:left; width:23%; font-size:1em; height:35px;}
+.ban_level2_con1 span { padding-left:8%;margin-top:5%; display:block;}
+.ban_level2_con2 { float:left; width:70%; position:relative; overflow:hidden;}
+.ban_level2_con2 ul { width:100%; position:absolute;left:0; top:0;}
+.ban_level2_con2 li { float:left; width:33%; cursor:pointer;}
+.ban_level2_con3 { float:right; width:6%;}
+.ban_level2_con3 span { display:block; width:48%; margin-left:10%;margin-top:15%; cursor:pointer;}
+.ban_level2_ban { margin:0; border-left:1px solid #555; overflow:hidden;}
+.ban_level2_banle { float:left; width:22%; height:36px;}
+.ban_level2_banle span { width:82%; display:block;}
+.ban_level2_banri { float:left; width:78%; color:#ffffff; font-size:12px; height:37px;}
+
+.ban_level3 {position:absolute; width:100%; bottom:4px;color:#fff;z-index:4; display:none;}
+.ban_level3 li.level1 { float:left; width:100%;margin-right:100%; position:relative; display:none;}
+.ban_level3bg { width:100%; height:390px; background-color:#000; opacity:0.6; filter:alpha(opacity=60); position:absolute; left:0;top:0;}
+.ban_level3_con { width:70%;color:#fff; position:absolute; left:15%; top:2.5em;}
+.ble3_le {float:left; width:40%;}
+.ble3_ani { width:100%; margin-bottom:1em;position:relative;}
+.ble3_ani img.hide { width:100%; position:absolute; left:0; top:0; opacity:0;filter:alpha(opacity=0); height:218px;}
+.ble3_ani li {
+    float:left; width:100%; margin-right:-100%; display:none;
+}
+.ble3_menu {
+    width:100%;text-align:right;
+}
+.ble3_menu span{ display:inline-block; width:0.8em;height:0.8em;margin-left:0.8em; background-color:#999; cursor:pointer; font-size:100%; text-indent:9999em;
+                 overflow:hidden;
+}
+.ble3_menu span.current { border:1px solid #fff;}
+.ble3_ri { float:right; width:58%;}
+.ble3_ri_title { font-size:1.8em; font-weight:700; padding:0.2em 0;}
+.ble3_ri_con1 { font-size:0.9em; line-height:1.5; padding-bottom:1em;}
+.ble3_ri_con2 { width:100%;font-size:0.8em;}
+.ble3_ri_con2 li { float:left; width:50%;}
+.ble3_ri_con2 li .imgle { float:left; width:20%; margin-right:5%;}
+.ble3_ri_con2 li .conri { float:left; width:70%;}
+.ble3_ri_con2 li .conri h1 { font-size:1.2em; margin:0px; padding:0 0 0.3em 0;}
+.ble3_del { position:absolute; right:15%; top:2.5em; width:2%; cursor:pointer;}
+
+@media screen and (max-width: 1024px) { /*当屏幕尺寸小于1024px时，应用下面的CSS样式*/
+  .mid_contlevel {
+    width:90% !important;margin:0 5% !important; 
+  }
+  .content { width:90% !important;margin:0 5% !important; }
+  .ban_level3_con { width:90% !important;left:5% !important;}
+  .ban_level2bg { width:76% !important;left:5% !important; }
+  .ban_level2 {  width:76% !important;left:5% !important; }
+  .navl { right:5% !important; }
+  .ble3_del { right:5% !important;}
+}
+@media screen and (max-width: 768px) { /*当屏幕尺寸小于1024px时，应用下面的CSS样式*/
+    .conright { width:26% !important;}
+    .conmid { width:42% !important;}
+    .conleft { width:32% !important;}
+}
+.banner_title {
+    position:absolute;
+    color:#fff;
+    font-size:0.9em;
+    right:15%;
+    top:120px;
+}
+.banner_title h1 {
+    margin:0px 0px 10px 0px;
+    font-size:2em;
+    font-weight:bold;
+}
+.leimg3 .banner_title {
+    left:15%;
+}

@@ -1,0 +1,81 @@
+﻿.othertop {
+    width:100%;
+    height:80px;
+    position:relative;
+}
+.othertop .language a {
+    color:#d71921;
+}
+.content {
+    width:100%;
+}
+.listdiv {
+    width:92%;
+    padding:0 4%;
+    margin-bottom:15px;
+}
+.listdiv li {
+    width:100%;
+    margin-bottom:12px;
+    font-size:14px;
+}
+span.point {
+    font-size:12px;
+    color:#d71921;
+    padding-right:8px;
+}
+span.data-time {
+    font-size:12px;
+    color:#666;
+    padding-left:5px;
+}
+.listmore {
+    width:92%;
+    padding:0px 4% 15px 4%;
+    margin-bottom:15px;
+    text-align:right;
+    color:#d71921;
+    cursor:pointer;
+}
+.listmore img { width:14px;}
+.maintxt {
+    width:92%;
+    padding:20px 4%;
+}
+.maintxt h3 {
+    margin-top:0px;
+    margin-bottom: 7px;
+    padding: 0px;
+    display: block;
+    color: #D71921;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+.maintxt h3 span.date {
+    color:#666;
+    font-size:12px;
+    padding-left:5px;
+}
+.detaildiv p {
+    margin:10px 0px 15px 0px;
+}
+.return {
+    text-align:center;
+    color:#333;
+    overflow:hidden;
+}
+.return a,.return a:hover {
+    color:#333;
+}
+.return a img,.return a span {
+    float:left;
+    width:21px;
+}
+.return a img {
+    margin-left:45%;
+}
+.return a span {
+    padding-top:4px;
+    padding-left:2px;
+}

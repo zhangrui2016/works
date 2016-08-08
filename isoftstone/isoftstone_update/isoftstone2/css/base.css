@@ -1,0 +1,90 @@
+﻿body
+{
+font-family:Arial, Helvetica, sans-serif, Arial Unicode;
+color:#333;
+margin:0px;
+padding:0px;
+background:url(../images/bg.png) repeat;
+}
+a
+{
+    color:#333;text-decoration: none;
+}
+a:hover {color:#d71921; text-decoration:none;}
+table, tr, td,img,div
+{
+    border: 0;
+    margin: 0;
+    padding:0;
+}
+ul{
+margin:0px;
+padding:0px;
+list-style-type:none;
+overflow:hidden;
+}
+/*page max width 1440px*/
+.box{ 
+width:100%;
+margin:0px auto;
+display:block;
+/*overflow:hidden;*/
+}
+.nav {
+position:absolute;left:0;top:0;z-index:10;width:100%;
+}
+.menu{
+width:100%;
+background-color:#d71921;
+padding:1.2em 0 0.3em 0; overflow:hidden;
+}
+.menuLevel1{
+width:70%;
+margin:0 15%;
+overflow:hidden;
+}
+.logo{
+width:180px;
+float:left;
+}
+.logolevel{width:170px;}
+.logo img{width:153px; height:46px;}
+.menulink{
+float:left;
+margin-top:1.2em;
+width:70%;
+}
+.menulink li{
+float:left;
+font-size:0.9em;
+color:#fff;
+border-right:1px solid #fff;
+}
+.menulink li.nobor{border-right:none;}
+.menulink li a{ padding:0 1em; color:#fff;}
+.toplink{width:70%;color:#fff;margin:0 15%; padding:0.5em 0px; overflow:hidden; }
+.toplink a{float:right;margin-left:2em;color:#fff;font-size:12px;}
+.toplink a.language{ padding-right:15px;background:url(../images/arrowdown.png) no-repeat right; font-size:11px;}
+footer {
+    width:70%;margin-top:2.5em; font-size:0.7em; color:#58585a; padding:2.5em 15%;border-top:1px solid #d71921; background-color:#fff; overflow:hidden;
+}
+.foole {
+    float:left; width:70%;
+}
+.foole span { padding-left:1.5em;}
+.foori {
+    float:left; width:30%; text-align:right;
+}
+.foori span {color:#dddcdc; padding:0 0.8em; }
+
+
+@media screen and (max-width: 1024px) { /*当屏幕尺寸小于1024px时，应用下面的CSS样式*/
+  .menuLevel1{
+    width:90% !important;
+    margin:0 5% !important;
+    }
+  .toplink{width:90% !important;margin:0 5% !important; }
+  footer {
+    width:90% !important;margin-top:2.5em; font-size:0.7em; color:#58585a; padding:2.5em 5% !important;border-top:1px solid #d71921; background-color:#fff; overflow:hidden;
+ }
+}

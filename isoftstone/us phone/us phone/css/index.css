@@ -1,0 +1,177 @@
+﻿.top {
+    width:100%;
+    height:500px;
+    position:relative;
+}
+#banner {
+    width:100%;
+    height:500px;
+}
+#banner li.lev1 { 
+    float:left; 
+    width:100%; 
+    margin-right:-100%; 
+    height:500px; 
+    position:relative;
+    display:none;
+}
+#banner li.img1 {  
+    background:url(../images/hero_Beijing@1080.jpg) no-repeat center bottom;
+}
+#banner li.img2 {  
+    background:url(../images/hero_NY@1080.jpg) no-repeat center bottom;
+}
+#banner li.img3 {  
+    background:url(../images/hero_Seattle@1080.jpg) no-repeat center bottom;
+}
+#banner li.img4 {  
+    background:url(../images/hero_SH@1080.jpg) no-repeat center bottom;
+}
+.ban_title {
+    padding:15px 4%;
+    background:url(../images/ocpbg.png) repeat;
+    background-size:1px 75px;
+    position:absolute;
+    left:0;
+    bottom:175px;
+    font-size:14px;
+    color:#fff;
+    width:92%;
+    border-bottom:1px solid #fff;
+}
+.ban_title h1 {
+    font-size:18px;
+    margin-bottom:8px;
+}
+.ban_con {
+    padding:20px 4% 5px 4%;
+    background:url(../images/ocpbg.png) repeat;
+    background-size:1px 75px;
+    position:absolute;
+    left:0;
+    bottom:0px;
+    font-size:14px;
+    color:#fff;
+    width:92%;
+    height:150px;
+}
+.ban_conlev {
+    position:relative;
+    width:100%;
+    overflow:hidden;
+    height:150px;
+}
+.ban_conlev ul { 
+    position:absolute; 
+    left:0; 
+    top:0;
+    z-index:1;
+}
+.ban_conlev ul li {
+    float:left;
+    width:100%;
+}
+.ban_level2_ban { 
+    margin:0 0 15px 40px; 
+    overflow:hidden;
+
+}
+.ban_level2_banle { 
+    float:left; 
+    width:60px; 
+    height:35px;
+
+}
+.ban_level2_banle img { 
+    width:34px; 
+    height:31px;
+
+}
+.ban_level2_banri { 
+    float:left;
+    color:#ffffff; 
+    font-size:12px;
+
+}
+.ban_level2_banri b {
+    font-size:13px;
+    font-weight:bold;
+}
+.ban_conlev p.more {
+    position:absolute;
+    right:0;
+    bottom:10px;
+    cursor:pointer;
+    z-index:2;
+}
+.banner_bar {
+    position:absolute;
+    right:4%;
+    bottom:165px;
+    text-align:center;
+    width:92%;
+}
+.banner_bar img {
+    width:21px;
+    height:15px;
+    margin-left:12px;
+    cursor:pointer;
+}
+
+/*Newsroom*/
+.conleft { 
+    width:100%; 
+    border-bottom:1px solid #ccc;
+}
+
+.contitle span.clickmenu { 
+    float:right; 
+    padding-right:0;
+}
+.contitle span.clickmenu img { 
+    cursor:pointer; 
+    margin-top:12px;
+    width:8px;
+}
+.contitle span.clickmenuri { 
+    float:right;
+}
+.contitle span.clickmenuri img { 
+    cursor:pointer;
+}
+.conleft_level2 { 
+    width:92%; 
+    overflow:hidden;
+    margin:0 4%; 
+    padding-bottom:5px;
+}
+.conleft_level3 { width:100%;}
+.conleft_level3 li { float:left; width:100%;}
+.conleft_level4 { width:100%; margin-bottom:16px; overflow:hidden;}
+.conleft_level4img { float:left; width:80px;}
+.conleft_level4img img { width:70px; height:70px;}
+.conleft_level4con {float:left;}
+h1.title_con { font-size:14px; font-weight:bold;margin:0; padding:0 0 10px 0;}
+h1.title_con span { color:#666;}
+.con_level4con { font-size:13px; color:#666;}
+
+.red-btn {
+    height:40px; 
+    background-color:#d71921; 
+    width:92%; padding:0 4%; 
+    margin-bottom:25px; 
+}
+.red-btn span.titleWhite {font-size:15px; float:left; line-height:40px;  color:#fff;}
+.red-btn span.click {float:right; padding-right:0;}
+.red-btn span.click img {cursor:pointer; margin-top:12px; width:8px;}
+
+.foot-link {
+    width:92%;
+    padding:30px 4%;
+    background-color:#fff;
+    text-align:center;
+}
+.foot-link a { margin:0px 15px;}
+.foot-link a.noleft { margin-left:0px !important; }
+.foot-link a.noright { margin-right:0px !important; }
+.foot-link a img { width:40px;}
